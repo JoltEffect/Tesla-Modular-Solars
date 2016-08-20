@@ -1,0 +1,43 @@
+#English Language File
+
+#Blocks
+tile.teslamodularsolars.blocksolarpanel.name=Solar Panel
+tile.teslamodularsolars.blocktitanium.name=Titanium Block
+tile.teslamodularsolars.blocktitaniumore.name=Titanium Ore
+
+#Items
+item.teslamodularsolars.itemcapacityupgradet1.name=T1 SolarPanel Capacitor Upgrade
+item.teslamodularsolars.itemcapacityupgradet2.name=T2 SolarPanel Capacitor Upgrade
+item.teslamodularsolars.itemcapacityupgradet3.name=T3 SolarPanel Capacitor Upgrade
+item.teslamodularsolars.itemgenerateupgradet1.name=T1 SolarPanel T/PerTick Generation Upgrade
+item.teslamodularsolars.itemgenerateupgradet2.name=T2 SolarPanel T/PerTick Generation Upgrade
+item.teslamodularsolars.itemgenerateupgradet3.name=T3 SolarPanel T/PerTick Generation Upgrade
+item.teslamodularsolars.itemtransferupgradet1.name=T1 SolarPanel Transfer T/PerTick Upgrade
+item.teslamodularsolars.itemtransferupgradet2.name=T2 SolarPanel Transfer T/PerTick Upgrade
+item.teslamodularsolars.itemtransferupgradet3.name=T3 SolarPanel Transfer T/PerTick Upgrade
+item.teslamodularsolars.itemtitaniumingot.name=Titanium Ingot
+item.teslamodularsolars.itemtitaniumdust.name=Titanium Dust
+item.teslamodularsolars.itemtitaniumplate.name=Titanium Plate
+item.teslamodularsolars.itemglassplate.name=Titanium Glass Plate
+item.teslamodularsolars.itemsolarcell.name=Solar Panel Cell
+item.teslamodularsolars.itemsolarcircuit.name=Solar Circuit Component
+item.teslamodularsolars.itemsolarbase.name=Solar Panel Base
+
+#Tools
+item.teslamodularsolars.itemtitaniumsword.name=Titanium Sword
+item.teslamodularsolars.itemtitaniumpickaxe.name=Titanium Pickaxe
+item.teslamodularsolars.itemtitaniumaxe.name=Titanium Axe
+item.teslamodularsolars.itemtitaniumhoe.name=Titanium Hoe
+item.teslamodularsolars.itemtitaniumspade.name=Titanium Spade
+#Armour
+item.teslamodularsolars.itemtitaniumhelmet.name=Titanium Helmet
+item.teslamodularsolars.itemtitaniumchestplate.name=Titanium ChestPlate
+item.teslamodularsolars.itemtitaniumleggings.name=Titanium Leggings
+item.teslamodularsolars.itemtitaniumboots.name=Titanium Boots
+
+#Tabs
+itemGroup.ModularSolars.tab=Tesla Modular Solars
+
+
+#Message
+message.teslamodularsolars.blocksolarpanel.status=The panel has %dT/%dT. Generating %dT per tick. With a transfer rate of %dT

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "teslamodularsolars",
+  "name": "TESLA MODULAR SOLAR PANEL",
+  "description": "A Simple upgradeable Modular Solar Panel which generates the new Tesla Power",
+  "version": "V1.0",
+  "mcversion": "${mcversion}",
+  "url": "Not available at this time",
+  "updateUrl": "",
+  "authorList": ["JoltEffect"],
+  "credits": "Darkhax for the Tesla API and the wonderfully helpful EsperNet#minecraftforge channel",
+  "logoFile": "assets/teslamodularsolars/textures/logo.png",
+  "screenshots": [],
+  "dependencies": ["MinecraftForge"]
+}
+]
