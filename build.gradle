@@ -28,9 +28,9 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.0"
+version = "1.10.2-1.0"
 group= "com.jolteffect.teslamodularsolars" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "Tesla Modular Solars 1.10.2.R1"
+archivesBaseName = "Tesla Modular Solars"
 
 minecraft {
     version = "1.10.2-12.18.1.2065"
