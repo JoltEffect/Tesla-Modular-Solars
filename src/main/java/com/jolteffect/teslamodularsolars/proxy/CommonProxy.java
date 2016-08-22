@@ -1,11 +1,13 @@
 package com.jolteffect.teslamodularsolars.proxy;
 
+import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import javax.annotation.OverridingMethodsMustInvokeSuper;
 
+import com.jolteffect.teslamodularsolars.block.solarpanel.TileEntitySolarPanel;
 import com.jolteffect.teslamodularsolars.init.ModBlocks;
 import com.jolteffect.teslamodularsolars.init.ModItems;
 import com.jolteffect.teslamodularsolars.init.TeslaModularSolarsRecipes;
@@ -33,6 +35,11 @@ abstract class CommonProxy implements IProxy {
     public void postInit(FMLPostInitializationEvent event)
     {
 
+    }
+    
+    public void openGui(TileEntity tile)
+    {
+    	
     }
 
 }

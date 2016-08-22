@@ -58,8 +58,8 @@ public class TeslaModularSolarsRecipes {
 				'G', new ItemStack(Blocks.GLASS)
 				);
 		GameRegistry.addShapedRecipe( new ItemStack(ModItems.itemTitaniumPlate),
-				"II",
-				"II",
+				"TT",
+				"TT",
 				"",
 				'T', new ItemStack(ModItems.itemTitaniumIngot)
 				);

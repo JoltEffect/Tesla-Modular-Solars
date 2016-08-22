@@ -2,9 +2,12 @@ package com.jolteffect.teslamodularsolars.block.solarpanel;
 
 import java.util.List;
 
+import com.jolteffect.teslamodularsolars.TeslaModularSolars;
 import com.jolteffect.teslamodularsolars.creativetabs.TeslaModularSolarsTabs;
 import com.jolteffect.teslamodularsolars.handler.ModularSolarsConfig;
 import com.jolteffect.teslamodularsolars.init.ModItems;
+import com.jolteffect.teslamodularsolars.utility.LogHelper;
+
 import net.darkhax.tesla.capability.TeslaCapabilities;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
@@ -131,6 +134,8 @@ public class BlockSolarPanel extends Block implements ITileEntityProvider {
             if (tile instanceof TileEntitySolarPanel && !tile.isInvalid())
             {
             	sendSpamlessMessage(CHAT_ID, new TextComponentString(I18n.format("message.teslamodularsolars.blocksolarpanel.status", container.getStoredPower(), container.getCapacity(), container.getGeneratePerTick(), container.getTransferRate() )));
+            	
+            	TeslaModularSolars.proxy.openGui(panel);
             }
         }
         

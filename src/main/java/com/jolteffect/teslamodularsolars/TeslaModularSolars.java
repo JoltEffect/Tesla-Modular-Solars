@@ -34,7 +34,7 @@ public class TeslaModularSolars {
     public static TeslaModularSolars instance;
     
     @SidedProxy(clientSide = "com.jolteffect.teslamodularsolars.proxy.ClientProxy", serverSide = "com.jolteffect.teslamodularsolars.proxy.ServerProxy")
-    private static IProxy proxy;
+    public static IProxy proxy;
     
     
     @Mod.EventHandler
