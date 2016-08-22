@@ -3,7 +3,7 @@
   "modid": "teslamodularsolars",
   "name": "TESLA MODULAR SOLAR PANEL",
   "description": "A Simple upgradeable Modular Solar Panel which generates the new Tesla Power",
-  "version": "V1.0",
+  "version": "V1.1",
   "mcversion": "${mcversion}",
   "url": "Not available at this time",
   "updateUrl": "",

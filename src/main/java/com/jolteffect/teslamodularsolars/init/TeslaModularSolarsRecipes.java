@@ -57,9 +57,14 @@ public class TeslaModularSolarsRecipes {
 				'O', new ItemStack(Items.GOLD_INGOT),
 				'G', new ItemStack(Blocks.GLASS)
 				);
+		GameRegistry.addShapedRecipe( new ItemStack(ModItems.itemTitaniumPlate),
+				"II",
+				"II",
+				"",
+				'T', new ItemStack(ModItems.itemTitaniumIngot)
+				);
 		//Shapeless
-		GameRegistry.addShapelessRecipe( new ItemStack(ModItems.itemTitaniumPlate), 
-				new Object[] {ModItems.itemTitaniumIngot, ModItems.itemTitaniumIngot, ModItems.itemTitaniumIngot, ModItems.itemTitaniumIngot});
+		
 
 		//Smelting
 		GameRegistry.addSmelting(ModBlocks.blockTitaniumOre, new ItemStack(ModItems.itemTitaniumIngot), 1.0F);

@@ -22,7 +22,7 @@ public class TeslaModularSolars {
 	public static final String MOD_ID = "teslamodularsolars";
     public static final String MOD_NAME = "TeslaModularSolars";
 
-    static final String VERSION = "1.10.2 R1.0";
+    static final String VERSION = "1.10.2 R1.1";
     static final String GUI_FACTORY_CLASS = "com.jolteffect.teslamodularsolars.handler.GuiFactoryTeslaModularSolars";
     static final String DEPENDENCIES = "required-after:Forge@[12.18.0.2002,);";
     
